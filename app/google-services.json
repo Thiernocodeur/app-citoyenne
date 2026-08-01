@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "719145987460",
+    "project_id": "app-citoyenne-1be48",
+    "storage_bucket": "app-citoyenne-1be48.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:719145987460:android:8051d775d54d55e5ed81d1",
+        "android_client_info": {
+          "package_name": "sn.uncgh.citoyen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFFZoXrPYmDunhhpDe1QvIySjM-hsFdN4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
