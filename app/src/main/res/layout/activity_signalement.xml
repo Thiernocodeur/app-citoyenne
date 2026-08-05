@@ -153,6 +153,32 @@
             app:layout_constraintTop_toBottomOf="@id/progressBar" />
 
         <Button
+            android:id="@+id/btnTousSignalements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Voir et voter pour les signalements"
+            app:layout_constraintTop_toBottomOf="@id/btnHistorique" />
+
+        <Button
+            android:id="@+id/btnCarte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Voir la carte des incidents"
+            app:layout_constraintTop_toBottomOf="@id/btnTousSignalements" />
+
+<!--        <Button-->
+<!--            android:id="@+id/btnDeconnexion"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginTop="8dp"-->
+<!--            android:text="Se déconnecter"-->
+<!--            android:backgroundTint="@android:color/transparent"-->
+<!--            android:textColor="@android:color/darker_gray"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/btnTousSignalements" />-->
+
+        <Button
             android:id="@+id/btnDeconnexion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -160,15 +186,7 @@
             android:text="Se déconnecter"
             android:backgroundTint="@android:color/transparent"
             android:textColor="@android:color/darker_gray"
-            app:layout_constraintTop_toBottomOf="@id/btnHistorique" />
-
-        <Button
-            android:id="@+id/btnTousSignalements"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:text="Voir et voter pour les signalements"
-            app:layout_constraintTop_toBottomOf="@id/btnDeconnexion" />
+            app:layout_constraintTop_toBottomOf="@id/btnCarte" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

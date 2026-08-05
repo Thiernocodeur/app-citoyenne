@@ -81,14 +81,18 @@ class SignalementActivity : AppCompatActivity() {
             startActivity(android.content.Intent(this, HistoriqueActivity::class.java))
         }
 
+        binding.btnTousSignalements.setOnClickListener {
+            startActivity(android.content.Intent(this, TousSignalementsActivity::class.java))
+        }
+
+        binding.btnCarte.setOnClickListener {
+            startActivity(android.content.Intent(this, sn.uncgh.citoyen.ui.carte.CarteActivity::class.java))
+        }
+
         binding.btnDeconnexion.setOnClickListener {
             com.google.firebase.auth.FirebaseAuth.getInstance().signOut()
             startActivity(android.content.Intent(this, sn.uncgh.citoyen.ui.auth.LoginActivity::class.java))
             finish()
-        }
-
-        binding.btnTousSignalements.setOnClickListener {
-            startActivity(android.content.Intent(this, TousSignalementsActivity::class.java))
         }
     }
 
@@ -173,4 +177,6 @@ class SignalementActivity : AppCompatActivity() {
             finish()
         }
     }
+
+
 }

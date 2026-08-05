@@ -57,4 +57,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.8.1")
     implementation("com.github.bumptech.glide:glide:4.16.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.8.1")
+
+    implementation("com.google.android.gms:play-services-maps:18.2.0")
+    implementation("org.osmdroid:osmdroid-android:6.1.20")
 }

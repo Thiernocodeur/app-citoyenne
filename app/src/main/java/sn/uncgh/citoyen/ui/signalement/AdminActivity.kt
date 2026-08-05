@@ -32,6 +32,10 @@ class AdminActivity : AppCompatActivity() {
         binding.rvIncidents.layoutManager = LinearLayoutManager(this)
         binding.rvIncidents.adapter = adapter
 
+        binding.btnVoirCarte.setOnClickListener {
+            startActivity(android.content.Intent(this, sn.uncgh.citoyen.ui.carte.CarteActivity::class.java))
+        }
+
         repository.getAllIncidents().observe(this) { liste ->
             adapter.submitList(liste)
             afficherStatistiques(liste)

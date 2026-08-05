@@ -9,6 +9,8 @@
         android:name="android.hardware.camera"
         android:required="false" />
 
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -47,6 +49,8 @@
             android:name=".ui.signalement.TousSignalementsActivity"
             android:exported="false" />
 
+        <activity android:name=".ui.carte.CarteActivity" />
+
         <provider
             android:name="androidx.core.content.FileProvider"
             android:authorities="${applicationId}.fileprovider"
@@ -56,6 +60,11 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
     </application>
 
 </manifest>

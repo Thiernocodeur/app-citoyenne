@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">App Citoyenne</string>
     <string name="desc_photo_incident">Photo de l\'incident</string>
+    <string name="google_maps_key">AIzaSyAFFZoXrPYmDunhhpDe1QvIySjM-hsFdN4</string>
 </resources>
